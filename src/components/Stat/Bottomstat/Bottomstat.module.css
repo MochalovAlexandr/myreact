@@ -1,0 +1,35 @@
+.bottomstat{
+    display: flex;   
+    justify-content: space-between;
+}
+
+.bottomcard{
+    position: relative;
+    background: #f4f4f4;
+    min-height: 179px;
+    width: 405px;
+    padding: 25px 5px 10px 15px;
+}
+
+.bottomcard p{
+    margin-bottom: 10px;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 137%;
+    color: #333;
+}
+
+.bottomcard span{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 64px;
+    color: #333;
+}
+
+.bottomcard img{
+    position: absolute;
+    right: 15px;
+    top: 35px;
+    z-index: 5;
+}

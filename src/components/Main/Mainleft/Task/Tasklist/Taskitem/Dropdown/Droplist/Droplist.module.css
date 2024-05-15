@@ -1,0 +1,33 @@
+.buttonwrapper{
+    padding-top: 5px;
+    background: #fff;
+    outline: 1px solid #c4c4c4;
+}
+
+.buttonmenu{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    width: 163px;
+    height: 36px;
+    cursor: pointer;
+    transition: background .3s ease-in-out;
+    list-style: none;
+}
+
+.buttonmenu:hover{
+    background: #f4f4f4;
+}
+
+.buttonmenu:active{
+    background: #b4b1b1;
+}
+
+p.buttonmenutext{
+    margin-left: 5px;
+    font-family: var(--font-family);
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 106%;
+    color: #999;
+}

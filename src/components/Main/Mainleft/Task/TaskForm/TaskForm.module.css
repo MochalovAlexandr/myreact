@@ -1,0 +1,64 @@
+.taskform{
+    display: flex;
+    flex-direction: column;
+    align-items: start;    
+}
+
+.taskinput{
+    width: 370px;
+    height: 55px;
+    padding-left: 10px;
+    margin-bottom: 25px;
+    background: #f4f4f4;
+    border: none;
+    cursor: pointer;
+    transition: background .3s ease-in-out;
+    font-family: var(--font-family);
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 106%;
+    color: #333;  
+}
+
+.taskinput:hover{    
+    background: #d8c0c0;    
+}
+
+.taskinput:active{    
+    background: #ee735d; 
+}
+
+.taskinput:focus{    
+    outline: 1px solid #a8b64f;
+}
+
+.taskinput::placeholder{    
+    font-family: var(--font-family);
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 106%;
+    color: #999;   
+}
+
+.taskbutton{
+    padding: 15px 50px;
+    width: 173px;
+    height: 55px;
+    margin-bottom: 24px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 106%;
+    text-align: center;
+    color: #fff;
+    background: #a8b64f;
+    transition: background .3s ease-in-out;
+}
+
+.taskbutton:hover{       
+    background: #899441;
+}
+
+.taskbutton:active{       
+    background: #5e662c;
+}

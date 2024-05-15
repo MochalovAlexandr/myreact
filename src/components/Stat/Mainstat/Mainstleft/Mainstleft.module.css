@@ -1,0 +1,81 @@
+.mainstleft{    
+    width: 296px;
+    min-height: 471px;
+}
+
+.mainstlefttop{
+    height: 260px;
+    padding: 25px 10px 5px 25px;
+    margin-bottom: 32px;
+    background: #f4f4f4;
+}
+
+.mainstleftday{
+    margin-bottom: 10px;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 137%;
+    color: #333;
+}
+
+.mainstlefttime{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    color: #333;
+}
+
+.mainstlefttime span{
+    font-weight: 700;
+    color: #dc3e22;
+}
+
+.mainstleftbot{
+    height: 179px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f4f4f4;
+}
+
+.tomatocount{
+    height: 179px;
+    background: #f4f4f4;
+
+}
+
+.tomatocounttop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 128px;    
+}
+
+.logoimg1{
+    margin-right: 10px;
+}
+
+.tomcount{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 137%;
+    color: #999;
+}
+
+.tomatocountbot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 51px;
+    background: #dc3e22;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 137%;
+    text-align: center;
+    color: #fff;
+}

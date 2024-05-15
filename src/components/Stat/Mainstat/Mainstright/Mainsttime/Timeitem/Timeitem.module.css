@@ -1,0 +1,24 @@
+.timeitem{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    min-height: 10px;
+    width: 100%;
+    background: #f4f4f4;
+}
+
+.timeline{
+    width: 843px;
+    height: 1px;
+    background: #333;
+    opacity: 0.2;   
+}
+  
+.timecount{
+    margin-top: -7px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 12px;
+    /* line-height: 275%; */
+    color: #333;
+}

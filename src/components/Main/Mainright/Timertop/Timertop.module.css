@@ -1,0 +1,27 @@
+.timertop{    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 733px;
+    height: 55px;
+    padding: 2px 40px;
+    margin-bottom: 79px;
+    background: #c4c4c4;
+}
+
+.timertask{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 106%;
+    color: #fff;
+}
+
+.tomatcount{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 106%;
+    color: #fff;
+}
+

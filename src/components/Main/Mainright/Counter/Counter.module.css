@@ -1,0 +1,154 @@
+.counter{    
+    width: 733px;    
+}
+
+.counterwrapper{
+    min-height: 165px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 78px;
+    padding-bottom: 2px;
+}
+
+.countertime{
+    margin-right: 27px;
+    font-family: var(--font-family);
+    font-weight: 200;
+    font-size: 150px;
+    line-height: 100%;
+    color: #333;
+}
+
+.counterbutton svg circle{
+    transition: fill .3s ease-in-out; 
+}
+
+.counterbutton:hover svg circle{
+    fill:#a8b64f;
+}
+
+.counterbutton:active svg circle{
+    fill:#899441;
+}
+
+.tasknamewrap{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 29px;
+}
+
+.tasknumber{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 106%;
+    color: #999;
+}
+
+.taskname{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 106%;
+    color: #333;
+}
+
+.counterbuttons{
+    display: flex;
+    justify-content: center;    
+}
+
+.buttonstart{
+    padding: 15px 50px;
+    width: 145px;
+    height: 55px;
+    margin-right: 25px;
+    background: #a8b64f;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 106%;
+    text-align: center;
+    color: #fff;
+    transition: background .3s ease-in-out;
+}
+
+.buttonstart:disabled{   
+    background: #74756c;   
+    color: #bbacac;
+}
+
+.buttonstart:hover{       
+    background: #899441;
+}
+
+.buttonstart:active{       
+    background: #5e662c;
+}
+
+.buttoncontinue{
+    padding: 15px 50px;
+    width: 196px;
+    height: 55px;
+    margin-right: 25px;
+    background: #a8b64f;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 106%;
+    text-align: center;
+    color: #fff;
+    transition: background .3s ease-in-out;
+}
+
+.buttoncontinue:hover{       
+    background: #899441;
+}
+
+.buttoncontinue:active{       
+    background: #5e662c;
+}
+
+.buttonstop{
+    border: 2px solid #c4c4c4;
+    padding: 15px 50px;
+    width: 138px;
+    height: 55px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    color: #c4c4c4;
+    transition: border .3s ease-in-out, color .1s ease-in-out, background .3s ease-in-out;
+}
+
+.buttonstop:disabled{   
+    background: #74756c;   
+    color: #bbacac;
+    border: 2px solid #74756c;
+}
+
+.buttonstop:hover{       
+    border: 2px solid #dc3e22;
+    color: #dc3e22;
+}
+
+.buttonstop:active{  
+    border: 2px solid #dc3e22;
+    color: #fff;     
+    background: #dc3e22;
+}
+
+.buttonmade{
+    border: 2px solid #c4c4c4;
+    padding: 15px 50px;
+    width: 166px;
+    height: 55px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    color: #c4c4c4;
+    transition: border .3s ease-in-out, color .1s ease-in-out, background .3s ease-in-out;
+}

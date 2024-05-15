@@ -1,0 +1,7 @@
+.mainstat{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    min-height: 200px;
+    margin-bottom: 25px;
+}

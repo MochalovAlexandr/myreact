@@ -1,0 +1,22 @@
+.graphitem{
+    width: 77px;
+    
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.graphbar{
+    width: 77px;
+    height: 222px;
+    background: #ea8a79;
+}
+
+.graphday{
+    height: 51px;
+    padding-top: 10px;
+    text-align: center;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 24px;
+    color: #999;
+}

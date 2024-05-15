@@ -1,0 +1,9 @@
+.mainsttime{
+    display: flex;
+    flex-direction: column-reverse;    
+    justify-content: end;
+    padding: 20px 20px 0 0;    
+    height: 420px;
+    width: 100%;
+    background: #f4f4f4;
+}

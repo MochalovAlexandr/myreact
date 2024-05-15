@@ -1,0 +1,7 @@
+.alltimetext{
+    font-family: var(--font-family);
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 106%;
+    color: #999;
+}

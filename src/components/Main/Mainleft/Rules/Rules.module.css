@@ -1,0 +1,27 @@
+.rules{
+    padding-left: 17px;
+    margin-bottom: 24px;    
+}
+
+.title{
+    margin-left: -16px;
+    margin-bottom: 4px;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 137%;
+    color: #333;
+}
+
+.item{
+    color: #b7280f;
+}
+
+.itemspan{
+    padding-left: 5px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 206%;
+    color: #333;
+}
